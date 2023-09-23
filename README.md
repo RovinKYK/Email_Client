@@ -1,10 +1,8 @@
-# Email Client Project
+# Email Client 
+
+This project implements a command line based email client with the ability to manage different types of recipients, send birthday greetings, and save sent emails. OOP concepts were utilized in completing the project using Java.
 
 ## Overview
-
-This project implements an email client with the ability to manage different types of recipients, send birthday greetings, and save sent emails.
-
-## Assignment Overview
 
 The email client has two types of recipients: official and personal. The details of the recipient list are stored in a text file. The user can update this text file by adding new recipients through the command-line.
 
@@ -19,12 +17,3 @@ All emails sent out by the email client are saved into the hard disk using objec
 - Print names of recipients with birthdays on the current date
 - Print details of emails sent on a specified date
 - Display the number of recipient objects in the application
-
-## Usage
-
-### Adding a New Recipient
-
-To add a new recipient, use the following command:
-
-```bash
-java EmailClient addRecipient <type> <details>
